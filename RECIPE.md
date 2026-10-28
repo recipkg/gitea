@@ -5,7 +5,7 @@ format = "recipkg/1"
 
 [package]
 name = "gitea"
-version = "0.1.0"
+version = "0.1.1"
 kind = "software"
 description = "自托管 Git 协作平台重建配方草案。"
 entry = "BUILD_PROMPT.md"
@@ -17,7 +17,7 @@ subdir = "recipes/software-quality"
 
 [dependencies.design]
 git = "https://github.com/recipkg/design-directions.git"
-rev = "f86b3eca87356a073274248eb48b6a5b6756db59"
+rev = "2546cea48637585ec2e83b297b12b08548f9d15f"
 ```
 
 上游 [go-gitea/gitea](https://github.com/go-gitea/gitea/tree/02c03d69d35963e40f9662d4a793a55d78649444)，固定提交 `02c03d69d35963e40f9662d4a793a55d78649444`，上游声明 MIT。仅部分合同已从源码提取，详细缺口和证据见 `COVERAGE.md`；不得声称本草案能够完整重建 Gitea。
