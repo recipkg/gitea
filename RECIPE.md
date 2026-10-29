@@ -5,7 +5,7 @@ format = "recipkg/1"
 
 [package]
 name = "gitea"
-version = "0.1.2"
+version = "0.1.3"
 kind = "software"
 description = "自托管 Git 协作平台重建配方草案。"
 entry = "BUILD_PROMPT.md"
